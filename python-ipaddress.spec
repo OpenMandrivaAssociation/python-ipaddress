@@ -2,7 +2,7 @@
 
 Name:           python2-%{pyname}
 Version:        1.0.16
-Release:        1
+Release:        2
 Summary:        Port of the python 3.3+ ipaddress module to 2.6+
 Group:          Development/Python
 License:        Python
