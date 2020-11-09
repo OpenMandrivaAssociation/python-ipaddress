@@ -2,16 +2,16 @@
 
 Name:           python2-%{pyname}
 Version:	1.0.23
-Release:	1
+Release:	2
 Summary:        Port of the python 3.3+ ipaddress module to 2.6+
 Group:          Development/Python
 License:        Python
 URL:            https://pypi.python.org/pypi/%{pyname}/%{version}
-Source0:	https://files.pythonhosted.org/packages/b9/9a/3e9da40ea28b8210dd6504d3fe9fe7e013b62bf45902b458d1cdc3c34ed9/ipaddress-1.0.23.tar.gz
+Source0:	https://files.pythonhosted.org/packages/source/i/ipaddress/ipaddress-1.0.23.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  pkgconfig(python2)
-BuildRequires:  pythonegg(setuptools)
+BuildRequires:  python2dist(setuptools)
 
 
 %description
